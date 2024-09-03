@@ -1,0 +1,52 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #1d648f;
+            color: #fff;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            text-indent: 40px;
+        }
+
+        .content {
+            display: flex; /* Utiliza o layout flexbox para alinhar elementos */
+            align-items: center; /* Alinha os itens verticalmente ao centro */
+            justify-content: center; /* Alinha os itens horizontalmente ao centro */
+            gap: 15px; /* Espaçamento entre a imagem e o texto */
+        }
+
+        #main-content {
+            margin: 20px 0;
+        }
+        img.sobre {
+            width: 600px;
+            height: auto;
+        }
+        img.formacao {
+            width: 70px;
+            height: auto;
+        }
+        img.contato {
+            width: 70px;
+            height: auto;
+        }
